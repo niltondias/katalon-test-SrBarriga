@@ -42,7 +42,6 @@ class ResultToTestLinkAfterTestCase {
 
 	public static void updateResults(String testCaseName, String exception, String results) throws TestLinkAPIException {
 		TestLinkAPIClient testLink = new TestLinkAPIClient(TESTLINK_KEY, TESTLINK_URL);
-		testLink.repor
 		testLink.reportTestCaseResult(TESTLINK_PROJECT_NAME,
 				TESTLINK_PLAN_NAME,
 				testCaseName,
